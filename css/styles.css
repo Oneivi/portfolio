@@ -58,7 +58,7 @@ body {
 
 .main{
   margin: 0 auto;
-  width: 80vw;
+  width: 90vw;
   height: 80vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -92,7 +92,7 @@ h1 span{
 
 .main img{
   width: 80%;
-  border: 7px solid #2c2c2c;
+  border: 10px solid #ffff;
   height: auto;
 }
 
@@ -113,8 +113,11 @@ h1 span{
   padding: 3em;
 }
 
+.menu-name{
+  font-size: 45px;
+}
+
 .about-info h2{
-  font-size: 50px;
   color: #191c32;
 }
 
@@ -206,6 +209,9 @@ h1 span{
   justify-content: center;
   margin-top: 1em;
 }
+.project-details a:hover{
+  color: #2c2c2c;
+}
 
 .contact-section{
   background-color: #ddac09;
@@ -294,4 +300,8 @@ h1 span{
   justify-content: space-evenly;
   width: 300px;
   margin-top: 1em;
+}
+
+.social-network a{
+  color: #ffff;
 }
