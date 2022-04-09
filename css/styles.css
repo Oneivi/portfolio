@@ -159,7 +159,6 @@ h1 span{
 }
 
 .card{
-  width: 300px;
   height: 350px;
   color: #ffff;
   background-color: #19052c;
@@ -228,8 +227,8 @@ h1 span{
   margin: 0 auto;
 }
 .container-contact img{
-  width: 750px;
-  height: 700px;
+  width: 50%;
+  height: 50%;
   bottom: 0px;
 }
 
@@ -372,9 +371,6 @@ h1 span{
   margin-left: 20%;
   margin-bottom: 20%;
 }
-.about p{
-  width: 425px;
-}
 .portfolio-headings{
   padding: 2%;
 }
@@ -441,7 +437,6 @@ h1 span{
     font-size: 1.25em;
   }
   .download-cv{
-    padding: 1.25em 5em;
     border-radius: 30px;
     margin-top: 1em;
     font-size: 1.20em;
@@ -471,7 +466,7 @@ h1 span{
     font-size: 1.2em;
   }
   .about-info .download-cv{
-    margin-top: 1em;
+  
     margin-left: 30%;
   }
   .portfolio-headings{
@@ -487,7 +482,6 @@ h1 span{
     padding-bottom: 2em;
   }
   .card{
-    width: 30em;
     height: auto;
     /*margin: 1em;*/
     margin-top: 3em;
@@ -526,17 +520,12 @@ h1 span{
   }
 }
 /*Small devices (portrait tablets and large phones, 600px andup)*/
-@media only screen and (min-width: 600px){
-  
-}
-
-/*Extra small devices (phones, 600px and down)*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width: 600px){
   .menu li{
     margin-right: 7%;
   }
   .menu a{
-    font-size: .7em;
+    display: none;
   }
   .main img{
     display: none;
@@ -544,4 +533,18 @@ h1 span{
   .main{
     grid-template-columns: auto;
   }
+  .form{
+    width: 75vw;
+  }
+  .form .btn-submit{
+    padding: 0.5em 3em;
+  }
+  .footer-content h2{
+    font-size: 2em;
+  }
+}
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width:600px){
+  
 }
